@@ -18,6 +18,7 @@
 @import "font-awesome";
 @import "./clearfix";
 @import "./_variable.scss";
+@import "modules/user";
 
 .notification {
   background-color: $lightblue;

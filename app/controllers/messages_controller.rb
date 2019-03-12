@@ -5,7 +5,7 @@ def index
 # Messageモデルの新しいインスタンスである@message
 @message = Message.new
 # グループに所属する全てのメッセージである@messages
-@messages = @group.message.include(:user)
+@messages = @group.messages.includes(:user)
 end
 
 def create

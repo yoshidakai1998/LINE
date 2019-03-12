@@ -1,23 +1,24 @@
 .message {
+  padding: 15px 0;
   .upper-message {
     display: flex;
     &__user-name {
       color: $black;
-      font-size: 16px;
+      font-size: 18px;
       font-weight: bold;
     }
     &__date {
       color: $light_gray;
       font-size: 12px;
       padding-left: 10px;
+      padding-top: 3.5px;
     }
   }
   .lower-message {
     margin-top: 10px;
     &__content {
       color: $black;
-      font-size: 14px;
-      margin-bottom: 40px;
+      font-size: 15px;
     }
   }
 }
